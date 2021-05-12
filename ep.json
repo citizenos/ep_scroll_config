@@ -1,0 +1,13 @@
+{
+    "parts": [
+        {
+            "name": "ep_scroll_config",
+            "client_hooks": {
+                "aceRegisterNonScrollableEditEvents": "ep_scroll_config/static/js/index"
+            },
+            "hooks": {
+                "clientVars": "ep_scroll_config/index"
+            }
+        }
+    ]
+}
